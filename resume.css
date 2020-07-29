@@ -1,0 +1,85 @@
+body{ background:pink;
+
+} 
+
+table{width:100%;}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+.Laila {
+	   color:white; 
+	   font-family:blod;
+	   font-size:20px;
+	   text-align:center;
+	   background:pink;
+}
+
+.Home {
+	
+	color:white; 
+	   font-family:blod;
+	   font-size:30px;
+	   text-align:center;
+	   background:lightblue;
+}
+
+
+ h2 {
+	 color:black;
+	 font-size:20px;
+ }
+
+.Here {
+	font-family:bold;
+	font-size:25px;
+	color:red;
+} 
+
+ul { background:lightblue;
+}
+
+.List {
+	   font-size:20px;
+ }
+ Di {
+	 
+	   width:500px;
+	  margin:0px auto; 
+	  background-color:white;
+	  color:blue;
+	  border:solid black 10px;
+ }
+ .main {
+	 background:pink;
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+  font-family:bold;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; grid-area: right; }
+.item4 { grid-area: right;}
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main  right right '
+    'menu  footer footer footer footer footer';
+  grid-gap: 0px;
+  background:url(https://cutewallpaper.org/21/success-desktop-wallpaper/Best-61+-Success-Backgrounds-on-HipWallpaper-Success-.jpg);
+  padding: 5px;
+}
